@@ -10,13 +10,20 @@ class LinkedList
             ListNode *next;
         };
         ListNode *head;
+        int numOfNodes;
+
+        
     public:
         LinkedList()
-            {head = nullptr;} // Once the list is created, assigning this to null is important because it signifies that the list is empty.
+            {
+                head = nullptr;
+                numOfNodes = 0;
+            } // Once the list is created, assigning this to null is important because it signifies that the list is empty.
         //~LinkedList();
 
         void appendNode(int);
         void displayList();
-        void insertNode(int, int);
+        int insertNode(int, int);
+        
 };
 #endif
