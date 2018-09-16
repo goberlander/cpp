@@ -4,35 +4,37 @@ using namespace std;
 /* This program will recursively do a binary search on an array of 100 digits.
 It will ask the user for a number to search for. */
 
-int binarySearch(int *, int, int, int)
+int binarySearch(int *, int, int, int);
 void fillArray(int *, int);
 
 int main()
 {
     int input; // To hold user's input
     const int SIZE = 100; // Size of array
-    int *arrPtr = new array[SIZE]; // Declare a pointer named, arrPtr; assign it the address of the dynamically allocated memory to hold the array of 100 ints.
+    int *arrPtr = new int[SIZE]; // Declare a pointer named, arrPtr; assign it the address of the dynamically allocated memory to hold the array of 100 ints.
     
     // Fill an array with 100 numbers.
     fillArray(arrPtr, SIZE);
 
     // Prompt the user for a value to search for.
-    cout << "Enter a number to search for: "
+    cout << "Enter a number to search for: ";
     cin >> input;
-    results = binarySearch(arrPtr, 0, SIZE - 1, input); // SIZE - 1 is the last element in the array.
+    int results = binarySearch(arrPtr, 0, SIZE - 1, input); // SIZE - 1 is the last element in the array.
     if (results)
     {
         cout << "Your value was found!\n";
     }
     else
         cout << "Your value was not found. :( \n";
-    delete [] array;
+    delete [] arrPtr;
+    arrPtr = nullptr;
 }
+
 // Fill the array with 100 digits.
 void fillArray(int *arrPtr, int size)
 {
     int value = 1;
-    for (int i = 0; i < size, i++)
+    for (int i = 0; i < size; i++)
     {
         *(arrPtr + i) = value++;
         cout << *(arrPtr);
@@ -57,6 +59,6 @@ int binarySearch(int *ptr, int first, int last, int value)
         return binarySearch(ptr, middle+1, last, value); // Middle + 1 is a new first position. It is half-of-array+1
     }
     else
-        return binarySearch(ptr, fist, middle - 1, value); // Middle - 1 is the new last position. It is half-
+        return binarySearch(ptr, first, middle - 1, value); // Middle - 1 is the new last position. It is half-
 }
 
