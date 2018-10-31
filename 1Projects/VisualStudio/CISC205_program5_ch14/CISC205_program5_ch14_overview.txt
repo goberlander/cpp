@@ -1,0 +1,25 @@
+CISC205_program5_ch14
+
+Program Requirements
+Functional Requirement:  Design a Ocean class to hold data about oceans.  Create a menu-driven program that will allow the user to enter ocean information and display the data. 
+
+Programming Requirements:
+
+1.  Design an Ocean class that has the following members:
+
+
+     Appropriate constructors
+
+     Accessors
+
+     Mutators (which should have an exit_failure if they are sent invalid data)
+
+     A print function that displays the oceans name, volume and pollution area.
+
+-------------------------------
+
+Make your code modular, well-documented and have your output look professional.  
+We need to see both levels of validation - review "Billie's notes" in this Lesson for more information on that. 
+
+
+STRATEGY

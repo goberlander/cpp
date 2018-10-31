@@ -1,0 +1,15 @@
+struct ListNode
+{
+        double value;
+        ListNode *next;
+};
+
+struct ListNode
+{
+    string text; // To hold string data in the list
+    ListNode *next; // To point to the next node in the list
+};
+
+ListNode *head; // To hold the beginning of a list
+
+<ListNode *next> makes this a self-referential data structure. This structure makes it possible to create nodes that point to other nodes of the same type.
