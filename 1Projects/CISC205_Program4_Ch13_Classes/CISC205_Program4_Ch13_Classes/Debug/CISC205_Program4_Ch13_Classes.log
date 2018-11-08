@@ -1,7 +1,0 @@
-﻿  Pharmacy.cpp
-z:\documents\github\cpp\1projects\cisc205_program4_ch13_classes\cisc205_program4_ch13_classes\pharmacy.cpp(9): warning C4305: '=': truncation from 'double' to 'float'
-z:\documents\github\cpp\1projects\cisc205_program4_ch13_classes\cisc205_program4_ch13_classes\pharmacy.cpp(10): warning C4305: '=': truncation from 'double' to 'float'
-z:\documents\github\cpp\1projects\cisc205_program4_ch13_classes\cisc205_program4_ch13_classes\pharmacy.cpp(11): warning C4305: '=': truncation from 'double' to 'float'
-z:\documents\github\cpp\1projects\cisc205_program4_ch13_classes\cisc205_program4_ch13_classes\pharmacy.cpp(12): warning C4305: '=': truncation from 'double' to 'float'
-z:\documents\github\cpp\1projects\cisc205_program4_ch13_classes\cisc205_program4_ch13_classes\pharmacy.cpp(50): warning C4715: 'Pharmacy::medicineChoice': not all control paths return a value
-  CISC205_Program4_Ch13_Classes.vcxproj -> Z:\Documents\GitHub\cpp\1Projects\CISC205_Program4_Ch13_Classes\Debug\CISC205_Program4_Ch13_Classes.exe

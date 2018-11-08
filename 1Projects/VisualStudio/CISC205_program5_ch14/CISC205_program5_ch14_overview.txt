@@ -7,13 +7,7 @@ Programming Requirements:
 
 1.  Design an Ocean class that has the following members:
 
-
-     Appropriate constructors
-
-     Accessors
-
-     Mutators (which should have an exit_failure if they are sent invalid data)
-
+  
      A print function that displays the oceans name, volume and pollution area.
 
 -------------------------------

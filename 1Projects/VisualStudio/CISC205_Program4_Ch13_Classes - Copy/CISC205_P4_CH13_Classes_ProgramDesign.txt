@@ -1,0 +1,84 @@
+CISC205 - CLASSES - PROGRAM 4
+
+Functional Requirements:
+
+Write a menu-driven program for my friend, Dr. Patty, who is a surgeon, that will keep track of patient charges.
+
+1.  Enter new patient
+
+2.  Edit patient
+
+3.  Display patient information
+
+4.  Exit
+
+Programming Requirements:
+
+1.  Create a Patient class that has member variables for the following:
+
+Patient ID:                      int  >= 0
+
+Patient Name:                string < 25 chars
+
+Patient Address:            string < 50 chars
+
+Patient Phone:               string < 11 chars
+
+Surgery Charges:            float >= 0
+
+-----------------------
+
+The class should have a default constructor and second constructor which accepts arguments for each member variable.  It should also have accessor and mutator functions for each member variable.   Mutator functions that are passed invalid data should cause an exit_failure.
+
+In main, declare an array of 5 Patient objects.  
+
+Use the format from earlier programs to drive the program.  However, remember that this data is private and can only be accessed or changed via the member functions.
+
+In order to get full credit, you must have modular code, your output must look professional, and you must have well-documented code. Please review all past grading notes from Kevin, and make sure to incorporate those changes into this program.
+
+------------------------
+
+Submit to us:
+
+1.  all files (.h and .cpp)
+
+2.  URL to a jing that shows the program working and also shows validation
+
+*******************************************************************************************************************************
+OR, if this sounds boring because you have already taken 187 from me, then we will give you 5 points of EC  if you implement Problem 13-20 in addition to the Patient class program outlined above.   (Problem 13-20 is the Patient Fees problem.)  
+EDIT:  If you choose to do 13-20, I would want you to complete the program above (the Patient class) with these changes:
+1.  Do not implement the Surgery Charges member of the Patient class (because this will be handled by the Patient Account class)
+2.  Add a menu item called "Discharge Patient".   In this menu item,  you can implement the classes as described in 13-20 and ultimately display the patient information along with the total charges.  
+We are encouraging creativity.  The only rules for this add-on EC is that you have to accomplish what the Problem 13-20 describes and you have to make it tie in with the program as described above.  Come on, let's see what you can do!
+
+
+
+
+
+MENU OPTIONS
+- new patient
+	- NewPatient
+		- input a unique ID (>=0), 
+		- their name (< 25 chars), 
+		- address (< 50 chars), 
+		- phone (< 11 chars), 
+- patient account
+- discharge patient
+- exit program
+ 
+
+
+--- CLASSES ---
+
+
+PatientAccount
+	- surgery charges
+		- 
+	- pharma charges
+	- edit patient?
+	- Go back to previous menu
+	- Go back to main menu
+
+SurgeryCharges Class
+
+PharmaCharges
