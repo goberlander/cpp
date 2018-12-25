@@ -2,53 +2,21 @@ CISC205_p6_ch15_inheritance_program
 
 Functional Requirement:  
     - Design a Yacht class that has two inherited classes, Sailboat and Powerboat.  
-    - Create a menu-driven program that will allow the user to enter yachts, powerboats and/or sailboats and then display the data.    
+    - Create a menu-driven program that will allow the user to enter yachts, powerboats and/or sailboats and then display the data. 
+    - need to create a switch for errors   
 
 Programming Requirements:
 
-1.  Design a Yacht class that has the following members:
-
-     name (string <= 20 chars and unique)
-
-     length (float > 0)
-
-     yearBuilt (string = 4 chars)
-
-     Appropriate constructors 
-
-     Accessors 
-
-     Mutators with exit_failures if they are sent invalid data
-
-     A virtual print function that displays the yacht's name, length and year built
-
-     ----------------------
-
 2.  Design a Powerboat class that is derived from the Yacht class with the following additional members:
 
-     number of engines (int > 0)
-
-     total horsepower (float > 0)
-
-     Appropriate constructors 
-
-     Accessors 
-
-     Mutators with exit_failures if they are sent invalid data
 
      A Print function that overrides the print function in the base class and only prints the powerboat's name, number of engines and it's total horsepower.
+          -- May need to setprecision, etc.
 
      --------------------------
 
 3.  Design a Sailboat class that is derived from the Yacht class with the following additional members:
 
-     sail area (float > 0)
-
-     Appropriate constructors 
-
-     Accessors
-
-     Mutator with exit_failures if they are sent invalid data
 
      A Print function that overrides the print function in the base class and only prints the sailboat's name and total sail area.
 

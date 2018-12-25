@@ -1,0 +1,10 @@
+﻿  CISC205_Pr7_Ch16_Exceptions.cpp
+z:\documents\github\cpp\1projects\visualstudio\cisc205_pr7_ch16_exceptions\cisc205_pr7_ch16_exceptions\cisc205_pr7_ch16_exceptions.cpp(403): warning C4101: 'surface_area': unreferenced local variable
+z:\documents\github\cpp\1projects\visualstudio\cisc205_pr7_ch16_exceptions\cisc205_pr7_ch16_exceptions\cisc205_pr7_ch16_exceptions.cpp(500): warning C4018: '<': signed/unsigned mismatch
+z:\documents\github\cpp\1projects\visualstudio\cisc205_pr7_ch16_exceptions\cisc205_pr7_ch16_exceptions\cisc205_pr7_ch16_exceptions.cpp(554): warning C4018: '<': signed/unsigned mismatch
+z:\documents\github\cpp\1projects\visualstudio\cisc205_pr7_ch16_exceptions\cisc205_pr7_ch16_exceptions\cisc205_pr7_ch16_exceptions.cpp(605): warning C4018: '<': signed/unsigned mismatch
+z:\documents\github\cpp\1projects\visualstudio\cisc205_pr7_ch16_exceptions\cisc205_pr7_ch16_exceptions\cisc205_pr7_ch16_exceptions.cpp(653): warning C4018: '<': signed/unsigned mismatch
+  Ocean.cpp
+  Generating Code...
+z:\documents\github\cpp\1projects\visualstudio\cisc205_pr7_ch16_exceptions\cisc205_pr7_ch16_exceptions\cisc205_pr7_ch16_exceptions.cpp(472): warning C4715: 'searchOceanForComparison': not all control paths return a value
+  CISC205_Pr7_Ch16_Exceptions.vcxproj -> Z:\Documents\GitHub\cpp\1Projects\VisualStudio\CISC205_Pr7_Ch16_Exceptions\Debug\CISC205_Pr7_Ch16_Exceptions.exe

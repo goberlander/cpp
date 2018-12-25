@@ -1,0 +1,24 @@
+Chapter 17 – Using the Standard Template Library – the Vector class
+
+ 
+    
+    
+
+
+--- PROGRAMMING REQUIREMENTS: 
+           
+    
+    
+    
+
+    
+
+
+
+    See Program 17-8 as an overly simple example of how the vector class is used. (THIS IS IN POWERPOINT)
+
+    And here’s a cool video I found:
+
+    http://www.programminghelp.org/lib/c++/lesson-21/
+
+    Programming Notes:  Make sure to implement the rating system with *'s not with numbers.  (We had a few people do that on Chapter 11.)  
